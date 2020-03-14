@@ -8,6 +8,6 @@
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_3_2.png" width="40%" height="40%">	
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_3_1.png" width="40%" height="20%">	
 
-#### reminder	
-* watch all code in the src.	
+#### Reminder	
+* reference all code in the src.	
 * Eigen::Quaterniond(w x y z) and tf::Quaternion(x y z w)	
