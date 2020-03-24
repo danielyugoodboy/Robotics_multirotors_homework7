@@ -1,9 +1,9 @@
 # Homework4
 ### Homework4	
-1. Please plot the fellowing photo with Eigen::Quaterniond(w x y z) and tf::Quaternion(x y z w) and show on the rviz.	
-2. You must note the direction of arrow.If you A point B which means A translate to B.	
-3. photo_1 is input B -> A and C -> A, output B -> C.	
-4. photo_2 is input A -> B(rotation z 90度) and B -> C(rotation 60), output A -> C.	
+1. Please draw the following plot using Eigen::Quaterniond(w x y z) and tf::Quaternion(x y z w) in rviz.	
+2. Be aware of the directions of arrows. Pointing from  A to B implies the transformation from A to B.	
+3. In the first figure, vectors BA and CA are the inputs to generate output vector BC.	
+4. In the second figure, vector AB is rotated by 90 degree about the z axis and vector BC is rotated by 60 degree about the z axis, and generate the output vector AC.	
 
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_3_2.png" width="40%" height="40%">	
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_3_1.png" width="40%" height="20%">	
