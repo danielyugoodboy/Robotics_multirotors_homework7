@@ -9,6 +9,14 @@
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_3_2.png" width="40%" height="40%">	
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_3_1.png" width="40%" height="20%">	
 
+### 指令
+
+```
+	roscore
+	rosrun HW4  tf_cf1 or tf_cf2 .... tf_cf4
+	rosrun rviz 
+```
+
 #### Reminders:
 * Please check the code in the src for reference.	
 * Eigen::Quaterniond(w x y z) and tf::Quaternion(x y z w)
