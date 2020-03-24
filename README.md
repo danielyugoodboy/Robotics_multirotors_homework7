@@ -9,7 +9,7 @@
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_3_2.png" width="40%" height="40%">	
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_3_1.png" width="40%" height="20%">	
 
-### 指令
+### nstruction
 
 ```
 	roscore
