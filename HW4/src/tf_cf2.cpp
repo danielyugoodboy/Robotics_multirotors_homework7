@@ -20,7 +20,7 @@ int main(int argc, char **argv)
     //旋轉向量（軸角）賦值的三大種方法
 
     //1.使用旋轉的角度和旋轉軸向量（此向量為單位向量）來初始化角軸
-    AngleAxisd V1(M_PI / 4, Vector3d(0, 0, 1));//以（0,0,1）为旋转轴，旋转45度
+    AngleAxisd V1(M_PI / 4, Vector3d(0, 0, 1));//以（0,0,1）為旋轉軸，旋轉45度
     cout << "Rotation_vector1" << endl << V1.matrix() << endl;
 
     //2.使用旋轉矩陣轉旋轉向量的方式
@@ -56,7 +56,7 @@ int main(int argc, char **argv)
     //對四元數賦值的三大種方法（注意Eigen庫中的四元數前三維是虛部,最後一維是實部）
 
     //1.使用旋轉的角度和旋轉軸向量（此向量為單位向量）來初始化四元數,即使用q=[cos(A/2),n_x*sin(A/2),n_y*sin(A/2),n_z*sin(A/2)]
-    Quaterniond Q1(cos((M_PI / 4) / 2), 0 * sin((M_PI / 4) / 2), 0 * sin((M_PI / 4) / 2), 1 * sin((M_PI / 4) / 2));//以（0,0,1）为旋转轴，旋转45度
+    Quaterniond Q1(cos((M_PI / 4) / 2), 0 * sin((M_PI / 4) / 2), 0 * sin((M_PI / 4) / 2), 1 * sin((M_PI / 4) / 2));//以（0,0,1）為旋轉軸，旋轉45度
     //第一種輸出四元數的方式
     cout << "Quaternion1" << endl << Q1.coeffs() << endl;
 
