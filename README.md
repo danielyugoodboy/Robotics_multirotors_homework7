@@ -6,8 +6,9 @@
 3. In the first figure, vectors BA and CA are the inputs to generate output vector BC.	
 4. In the second figure, vector AB is rotated by 90 degree about the z axis and vector BC is rotated by 60 degree about the z axis, and generate the output vector AC.	
 
-<img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_3_2.png" width="40%" height="40%">	
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_3_1.png" width="40%" height="20%">	
+<img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_3_2.png" width="40%" height="40%">	
+
 
 ### Instruction
 
