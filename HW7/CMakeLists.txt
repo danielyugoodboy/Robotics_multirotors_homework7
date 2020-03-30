@@ -12,8 +12,6 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   sensor_msgs
   image_transport
-  pcl_conversions
-  pcl_ros
   cv_bridge
   tf
   visualization_msgs
@@ -26,14 +24,13 @@ catkin_package(
 #  LIBRARIES week_11
 #  CATKIN_DEPENDS roscpp rospy std_msgs
 #  DEPENDS system_lib
-DEPENDS EIGEN3 PCL
+DEPENDS EIGEN3
 )
 
 
 include_directories(
 include
   ${catkin_INCLUDE_DIRS}
-  ${PCL_INCLUDE_DIRS}
   ${EIGEN3_INCLUDE_DIRS}
   ${CERES_INCLUDE_DIRS}
 )
