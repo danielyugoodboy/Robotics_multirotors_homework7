@@ -46,3 +46,9 @@ target_link_libraries(tf_cf4 ${catkin_LIBRARIES} )
 
 add_executable(tf_cf3 src/tf_cf3.cpp)
 target_link_libraries(tf_cf3 ${catkin_LIBRARIES} )
+
+add_executable(answer1 src/answer1.cpp)
+target_link_libraries(answer1 ${catkin_LIBRARIES} )
+
+add_executable(answer2 src/answer2.cpp)
+target_link_libraries(answer2 ${catkin_LIBRARIES} )
