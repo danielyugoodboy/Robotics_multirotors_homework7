@@ -5,8 +5,8 @@
 #### Questions:
 1. Please draw the following plot using Eigen::Quaterniond(w x y z) and tf::Quaternion(x y z w) in rviz.	
 2. Be aware of the directions of arrows. Pointing from  A to B implies the transformation from A to B.	
-3. In the first figure, vector AB is rotated by 90 degree about the z axis and vector BC is rotated by 60 degree about the z axis, and generate the output vector AC.
-4. In the second figure, vectors BA and CA are the inputs to generate output vector BC.	
+3. In the first figure, transformation AB is rotated by 90 degree about the z axis and transformation BC is rotated by 60 degree about the z axis, and generate the output transformation AC.
+4. In the second figure, transformation BA and CA are the inputs to generate output transformation BC.	
 
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_3_1.png" width="40%" height="20%">	
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_3_2.png" width="40%" height="40%">	
